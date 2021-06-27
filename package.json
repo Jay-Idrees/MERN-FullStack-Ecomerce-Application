@@ -1,0 +1,24 @@
+{
+  "name": "MERN-FullStack-Ecomerce-Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay-Idrees/MERN-FullStack-Ecomerce-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay-Idrees/MERN-FullStack-Ecomerce-Application/issues"
+  },
+  "homepage": "https://github.com/Jay-Idrees/MERN-FullStack-Ecomerce-Application#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
