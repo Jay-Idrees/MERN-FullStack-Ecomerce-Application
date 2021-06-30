@@ -1,14 +1,12 @@
+const path=require('path');
+
 const express=require('express');
-
-
+const bodyParser=require('body-parser');
+const { urlencoded } = require('body-parser');
 
 const app=express();
 
 
-app.use('/',(req,res,next)=>{
-    console.log('Hello from Express')
-    res.send('<h1>Hello from Express !!! <h1>')
-})
+app.use(bodyParser.urlencoded({extended:false}));
 
-
-app.listen(3000)
+app.listen(3000);
